@@ -7,7 +7,7 @@ We have used tensorflow and jupyter ipython notebooks with ipywidgets installed
 
 
 ### requirements
-We require [jupyter ipywidgets](https://github.com/ipython/ipywidgets) to be installed before running this notebook. [ipywidget](https://github.com/ipython/ipywidgets) is a small add-on to [jupyter](http://jupyter.org/) technology. You can easily pip install this component once you have installed [jupyter](http://jupyter.org/).
+We require [jupyter ipywidgets](https://github.com/ipython/ipywidgets) to be installed before running these notebooks. [ipywidget](https://github.com/ipython/ipywidgets) is a small add-on to [jupyter](http://jupyter.org/) technology. You can easily pip install this component once you have installed [jupyter](http://jupyter.org/).
 
 *Before starting the server with '<code>jupyter notebook --ip=0.0.0.0</code>' we do the following command to ensure that ipywidgets are enabled in the notebook. '<code>jupyter nbextension enable --py widgetsnbextension</code>.'*
 
@@ -29,13 +29,13 @@ We require [jupyter ipywidgets](https://github.com/ipython/ipywidgets) to be ins
 * <code>notebooks/common/utils.ipynb</code> is a utility notebook which can be imported by other notebooks. This utility notebook,
 provides the following utilities
 
-    *  <code>ProgressImageWidget</code>, is a custom ipywidget written for interacticvely displaying training data
+    *  <code>ProgressImageWidget</code>, is a custom ipywidget written for interactively displaying training data
     *  <code>Plotter</code>, is a class for adding channels and sample data to channels , which can be plotted as a png image
     *  <code>IngGrid</code>, is a class for plotting a grid of images
     *  <code>IngGridController</code>, is a higher level class for managing ImgGrids and corresponding ProgressImageWidget-s
 
 ### credits
-
+* <code>notebooks/common/load_notebooks.py</code>  is reproduced from its implementation [here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html)
 * <code>notebooks/common/imagenet_classes.py</code> is taken from [Davi Frossard's site](https://www.cs.toronto.edu/~frossard/post/vgg16)
 * <code>notebooks/tf_vgg16.ipynb</code>, much of the code for building the tensorflow model from vgg16.npy is adapted from [ MarvinTeichmann's tensorflow implementation of fc net](https://github.com/MarvinTeichmann/tensorflow-fcn)
 * <code>notebooks/tf_cifar_optimized.ipynb</code>, we have used the code from [Jean Dut](https://github.com/jeandut/tensorflow-models) for GCN pre-processing of data
