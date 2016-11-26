@@ -34,3 +34,9 @@ provides the following utilities
     *  <code>IngGrid</code>, is a class for plotting a grid of images
     *  <code>IngGridController</code>, is a higher level class for managing ImgGrids and corresponding ProgressImageWidget-s
 
+### credits
+
+* <code>notebooks/common/imagenet_classes.py</code> is taken from [Davi Frossard's site](https://www.cs.toronto.edu/~frossard/post/vgg16)
+* <code>notebooks/tf_vgg16.ipynb</code>, much of the code for building the tensorflow model from vgg16.npy is adapted from [ MarvinTeichmann's tensorflow implementation of fc net](https://github.com/MarvinTeichmann/tensorflow-fcn)
+* <code>notebooks/tf_cifar_optimized.ipynb</code>, we have used the code from [Jean Dut](https://github.com/jeandut/tensorflow-models) for GCN pre-processing of data
+* <code>notebooks/tf_cifar.ipynb</code>, owes its origins to [the official tensorflow cifar tutorial](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/models/image/cifar10)
