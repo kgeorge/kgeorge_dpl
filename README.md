@@ -31,8 +31,8 @@ provides the following utilities
 
     *  <code>ProgressImageWidget</code>, is a custom ipywidget written for interactively displaying training data
     *  <code>Plotter</code>, is a class for adding channels and sample data to channels , which can be plotted as a png image
-    *  <code>IngGrid</code>, is a class for plotting a grid of images
-    *  <code>IngGridController</code>, is a higher level class for managing ImgGrids and corresponding ProgressImageWidget-s
+    *  <code>ImgGrid</code>, is a class for plotting a grid of images
+    *  <code>ImgGridController</code>, is a higher level class for managing ImgGrids and corresponding ProgressImageWidget-s
 
 ### credits
 * <code>notebooks/common/load_notebooks.py</code>  is reproduced from its implementation [here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html)
