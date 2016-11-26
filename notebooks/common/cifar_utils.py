@@ -48,7 +48,7 @@ class CifarData(object):
                 sys.stdout.write('\r>> Downloading %s %.1f%%' % (filename,
                 float(count * block_size) / float(total_size) * 100.0))
                 sys.stdout.flush()
-            filepath, _ = urllib.urlretrieve(DATA_URL, filepath, _progress)
+            filepath, _ = urllib.urlretrieve(CifarData.DATA_URL, filepath, _progress)
         statinfo = os.stat(filepath)
         self.v_print_('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
         with tarfile.open(filepath, 'r:gz') as t:
